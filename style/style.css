@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* обязательно к применению */
+    font-family: "RR";
+    
+}
+.container{
+    max-width: 1140px;/* делает жизнь проще */
+    width: 100%;/* делает жизнь проще */
+    margin: 0 auto;/* делает жизнь проще */
+    padding: 15px 0;/* делает жизнь проще */
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav{
+    background: #3E8989;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav_logo{
+    margin: 37px 0;
+}
+.header_nav_ul{
+    display: flex;
+    gap: 30px;
+    margin: 36px 0 45px 0;
+
+}
+.header_form{
+    max-width: 296px;
+    width: 100%;
+    margin: 33px 0px;
+    display: flex;
+}
+.header_nav_input{
+    width: 216px;
+    height: 35px;
+    left: 985px;
+    top: 33px;
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+    color: #898989;
+    padding: 8px 0px 8px 20px;
+    border: 1px solid  #295E5E ;
+}
+.header_nav_button{
+    width: 74px;
+    height: 35px;
+    left: 1201px;
+    top: 33px;
+    background: #295E5E;
+    border-radius: 0px 20px 20px 0px;
+    color: #FFFFFF;
+    border: 1px solid #295E5E;
+}
+.header_nav_li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    
+
+}
+.header_nav_li:hover{
+    border-bottom: 2px solid white;
+}
+.header_body{
+    height: 800px;
+    background: url(../images/header_logo.jpg)no-repeat center/ cover;
+}
+.header_body_h2{
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 95px;
+    color: #FFFFFF;
+}
+.header_body_p{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.header_body_a{
+    background: #B4436C;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 14px 78px;
+    border-radius: 30px;
+}
+.header_body{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.header_body_h2{
+    margin-bottom: 20px;
+}
+.header_body_p{
+    margin-bottom: 50px;
+}
+.main_header_h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 54px;
+}
+.main_header_description{
+    display: flex;
+    gap: 30px;
+}
+.main_header_content{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+._main_down_h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    text-align: center;
+    margin-top: 97px;
+    margin-bottom: 54px;
+}
+.main_down_content{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.main_down_content_ul{
+    background: #EFEFEF;
+}
+.main_down_content_clothes{
+    margin: 1px 32px;
+    background: #EFEFEF;
+
+}
+.main_down_content_crosses{
+    margin: 77px 22px;
+    background: #EFEFEF;
+}
+.main_down_content_tents{
+    margin: 75px 1px;
+    background: #EFEFEF;
+}
+.main_down_content_backpacks{
+    margin: 19px 0;
+    background: #EFEFEF;
+}
+.main_end_h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    margin-bottom: 50px;
+    margin-top: 100px
+    
+
+}
+.main_end_p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.main_end_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+}
+.main_end_a_right{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.main_end_a_2_right{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.footer_content{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.footer{
+    height: 150px;
+    background: #3E8989;
+    padding: 40px 0;
+}
+.footer_content_li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: 300ms;
+}
+.footer_content_li:hover{
+    border-bottom: 2px solid white;
+}
+.footer_content_rights{
+    display: flex;
+    margin-top: 59px;
+    justify-content: center;
+}
+.footer_content_rights p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 6px;
+}
+.main_down_content_naming{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+    color: #000000;
+    margin-top: 30px;
+}
